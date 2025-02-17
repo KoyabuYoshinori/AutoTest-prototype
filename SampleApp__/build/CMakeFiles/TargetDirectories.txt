@@ -1,0 +1,4 @@
+C:/Users/ykoyabu/my-project/AutoTest-prototype/SampleApp/build/CMakeFiles/SampleApp.dir
+C:/Users/ykoyabu/my-project/AutoTest-prototype/SampleApp/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/ykoyabu/my-project/AutoTest-prototype/SampleApp/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ykoyabu/my-project/AutoTest-prototype/SampleApp/build/CMakeFiles/ZERO_CHECK.dir

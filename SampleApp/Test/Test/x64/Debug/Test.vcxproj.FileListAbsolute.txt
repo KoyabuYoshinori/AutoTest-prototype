@@ -1,0 +1,3 @@
+C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\Test\x64\Debug\gtest.pdb
+C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\Test\x64\Debug\gtest_main.pdb
+C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\Test\Test\x64\Debug\Test.vcxproj.Up2Date

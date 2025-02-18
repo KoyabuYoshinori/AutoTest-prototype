@@ -16,12 +16,12 @@ jobs:
   steps:
     # リポジトリのコードをGitHub Actionsにチェックアウト
     ‐ name: Checkout code
-       uses: actions/checkout@v2
+    uses: actions/checkout@v2
     # CMakeのセットアップ
-    - name: Set up CMake
-      uses: actions/setup-cmake@v2
-      with: cmake-version: '3.29'
-     # CI/CDパイプライン内で必要な依存関係をインストール
+    ‐ name: Set up CMake
+    uses: actions/setup-cmake@v2
+    with: cmake-version: '3.29'
+    # CI/CDパイプライン内で必要な依存関係をインストール
     - name: Install dependencies
        run: |
            # Windows上でLLVMコンパイラをイストール

@@ -1,0 +1,46 @@
+#Pushイベントでmainブランチに変更があった場合
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+    
+jobs:
+  build:
+    # Windows環境で実行
+    runs-on: windows-latest
+  steps:
+    # リポジトリのコードをGitHub Actionsにチェックアウト
+    ‐ name: Checkout code
+       uses: actions/checkout@v2
+    # CMakeのセットアップ
+    - name: Set up CMake
+      uses: actions/setup-cmake@v2
+      with: cmake-version: '3.29'
+    # CI/CDパイプライン内で必要な依存関係をインストール
+    - name: Install dependencies
+       run: |
+           # Windows上でLLVMコンパイラをイストール
+           choco install llvm --version=12.0
+           # Visual Studio C++ Redistributableをインストール
+           choco install vcredist2022
+
+    # VisualStudio2022を使用してビルド構成を作成
+    name: Configure CMake
+    run: |
+        mkdir build
+        cd build
+        cmake .. -G "Virual Studio 2022"
+
+    # プロジェクトをRelease設定でビルド
+    - name: Build project
+       run: |
+           cd build
+           cmake --build . --config Debug
+    # CMakeのテストランナーを使ってテストを実行
+    - name: Run tests
+       run: |
+           cd build
+           ctest

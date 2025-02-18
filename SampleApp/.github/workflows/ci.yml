@@ -28,11 +28,11 @@ jobs:
            choco install vcredist2022
 
     # VisualStudio2022を使用してビルド構成を作成
-    name: Configure CMake
-    run: |
-        mkdir build
-        cd build
-        cmake .. -G "Virual Studio 2022"
+    - name: Configure CMake
+       run: |
+           mkdir build
+           cd build
+           cmake .. -G "Virual Studio 2022"
 
     # プロジェクトをRelease設定でビルド
     - name: Build project

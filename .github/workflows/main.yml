@@ -20,7 +20,6 @@ jobs:
     # CMakeのセットアップ
     ‐ name: Set up CMake
     uses: actions/setup-cmake@v2
-    with: cmake-version: '3.29'
     # CI/CDパイプライン内で必要な依存関係をインストール
     - name: Install dependencies
        run: |

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ykoyabu\\my-project\\AutoTest-prototype\\SampleApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F30FADE7-78C2-442A-8225-97092697CBA7}|SampleApp.vcxproj|C:\\Users\\ykoyabu\\my-project\\AutoTest-prototype\\SampleApp\\SampleApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F30FADE7-78C2-442A-8225-97092697CBA7}|SampleApp.vcxproj|solutionrelative:SampleApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F30FADE7-78C2-442A-8225-97092697CBA7}|SampleApp.vcxproj|C:\\Users\\ykoyabu\\my-project\\AutoTest-prototype\\SampleApp\\SampleApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F30FADE7-78C2-442A-8225-97092697CBA7}|SampleApp.vcxproj|solutionrelative:SampleApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SampleApp.h",
+              "DocumentMoniker": "C:\\Users\\ykoyabu\\my-project\\AutoTest-prototype\\SampleApp\\SampleApp.h",
+              "RelativeDocumentMoniker": "SampleApp.h",
+              "ToolTip": "C:\\Users\\ykoyabu\\my-project\\AutoTest-prototype\\SampleApp\\SampleApp.h",
+              "RelativeToolTip": "SampleApp.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-18T08:00:29.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SampleApp.cpp",
               "DocumentMoniker": "C:\\Users\\ykoyabu\\my-project\\AutoTest-prototype\\SampleApp\\SampleApp.cpp",
               "RelativeDocumentMoniker": "SampleApp.cpp",
               "ToolTip": "C:\\Users\\ykoyabu\\my-project\\AutoTest-prototype\\SampleApp\\SampleApp.cpp",
               "RelativeToolTip": "SampleApp.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAALoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-17T10:00:54.253Z",
               "EditorCaption": ""

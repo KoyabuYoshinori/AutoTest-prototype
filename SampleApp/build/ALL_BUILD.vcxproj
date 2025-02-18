@@ -177,21 +177,25 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{08B860A1-942E-3A92-AA9B-15D7374DDD6E}</Project>
       <Name>SampleApp</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\build\extern\googletest\googlemock\gmock.vcxproj">
+    <ProjectReference Include="C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\build\external\googletest\googlemock\gmock.vcxproj">
       <Project>{2AC3E40F-8CBE-3FAE-84C7-C24D89CCC391}</Project>
       <Name>gmock</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\build\extern\googletest\googlemock\gmock_main.vcxproj">
+    <ProjectReference Include="C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\build\external\googletest\googlemock\gmock_main.vcxproj">
       <Project>{04A9F243-586F-319C-92FE-1FDE311E3477}</Project>
       <Name>gmock_main</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\build\extern\googletest\googletest\gtest.vcxproj">
+    <ProjectReference Include="C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\build\external\googletest\googletest\gtest.vcxproj">
       <Project>{868E055F-4F8E-3A41-B33A-D8F6A186DACB}</Project>
       <Name>gtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\build\extern\googletest\googletest\gtest_main.vcxproj">
+    <ProjectReference Include="C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\build\external\googletest\googletest\gtest_main.vcxproj">
       <Project>{EC932F2D-3153-3F6B-9F50-8B97117F3A1D}</Project>
       <Name>gtest_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\build\test_my_class.vcxproj">
+      <Project>{0DE7683D-D65C-343C-8DAD-CB361D728184}</Project>
+      <Name>test_my_class</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

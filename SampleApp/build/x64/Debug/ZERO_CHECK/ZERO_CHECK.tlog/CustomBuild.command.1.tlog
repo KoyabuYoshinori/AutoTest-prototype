@@ -1,0 +1,10 @@
+^C:\USERS\YKOYABU\MY-PROJECT\AUTOTEST-PROTOTYPE\SAMPLEAPP\BUILD\CMAKEFILES\B298E2F25C7A7F003822AF0018AC4149\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ykoyabu/my-project/AutoTest-prototype/SampleApp -BC:/Users/ykoyabu/my-project/AutoTest-prototype/SampleApp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ykoyabu/my-project/AutoTest-prototype/SampleApp/build/MyTestProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

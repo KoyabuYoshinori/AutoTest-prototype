@@ -178,3 +178,9 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
     }
     return (INT_PTR)FALSE;
 }
+
+// 加算処理
+int SampleApp::add(int a, int b)
+{
+	return 2 * b + a;
+}

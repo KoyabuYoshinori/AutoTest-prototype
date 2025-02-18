@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ykoyabu\my-project\AutoTest-prototype\SampleApp\build\CMakeFiles\d0ef8c1388ed8d518852229dca0e3bb4\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4F82FF43-E2F6-3AD9-A447-86657674A18D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
